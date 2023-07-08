@@ -120,9 +120,11 @@ main {
     max-width: 1140px;
     margin: 0px auto;
 }
-main section{
+
+main section {
     margin-top: 130px;
 }
+
 .about-info-container {
     display: flex;
     justify-content: space-around;
@@ -148,84 +150,98 @@ main section{
     text-decoration: double;
     margin-bottom: 2px;
 }
+
 /* what i do section */
 
-#what-i-do-description{
+#what-i-do-description {
     padding: 20px 150px;
     text-align: center;
 }
-.skill-container{
+
+.skill-container {
     display: flex;
     gap: 24px;
 }
-.skill{
+
+.skill {
     padding: 33px;
-    
+
     border-radius: 5px;
-background: #FFF;
-box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.skill-description{
+
+.skill-description {
     color: #757575;
     text-align: left;
-    
+
 }
+
 /* Resume section start */
-.resume-column-title{
-    color:#474747;
-font-family: Open Sans;
-font-size: 30px;
-font-style: normal;
-font-weight: 700;
-margin-bottom: 10px;
+.resume-column-title {
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
-.resume-container{
+
+.resume-container {
     display: flex;
     gap: 40px;
 }
-.resume-item-description{
+
+.resume-item-description {
     color: #757575
 }
-.resume-item-institute{
+
+.resume-item-institute {
     color: #757575;
     font-size: 20px;
     margin-bottom: 20px;
     margin-top: 0px;
 }
-.resume-item-title{
+
+.resume-item-title {
     color: #474747;
     font-size: 25px;
 }
-.resume-container hr{
+
+.resume-container hr {
     margin: 30px;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer section */
-footer{
+footer {
     display: flex;
     background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
     gap: 100px;
 }
-.footer-column{
+
+.footer-column {
     width: 50%;
 }
+
 /* form section */
-.contact input[type="text"], .contact input[type="email"], textarea{
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
     color: White Color;
     border: 0px;
     width: 100%;
-   
 }
-.social-links a{
-    margin-right: 30px;
-   
 
+.social-links a {
+    margin-right: 30px;
 }
