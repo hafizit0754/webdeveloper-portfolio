@@ -215,9 +215,17 @@ footer{
     width: 50%;
 }
 /* form section */
-.contact input, textarea{
+.contact input[type="text"], .contact input[type="email"], textarea{
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
     color: White Color;
+    border: 0px;
+    width: 100%;
+   
+}
+.social-links a{
+    margin-right: 30px;
+   
+
 }
